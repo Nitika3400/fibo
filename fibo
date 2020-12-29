@@ -1,0 +1,8 @@
+a,b,c=0,1,2
+n=input("enter the number of terms")
+print(a)
+print(b)
+while c>=int(n):
+    x,a,b=(a+b),b,x
+    print(b)
+    c+=1
